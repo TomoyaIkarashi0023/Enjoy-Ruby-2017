@@ -2,6 +2,7 @@ class HelloCount
   @@count = 0
 
   def HelloCount.count
+   # 何度でも変更出来るようにクラス変数を用意した
     @@count
   end
 
