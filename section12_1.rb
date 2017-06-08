@@ -4,4 +4,4 @@ def cels2fahr
   cels = fahr * 9 / 5 + 32
 end
 
-p "華氏は#{cels2fahr}です"
+p "華氏は#{ cels2fahr }です"
