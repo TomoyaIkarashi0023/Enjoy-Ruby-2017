@@ -5,12 +5,12 @@ def prime?(num)
   when 2
     true
   else
-    (2..(num-1)).each do |index|
+    (2..(num - 1)).each do |index|
       if num % index == 0
-      return false
+        return false
       end
-  end
-  return true
+    end
+    return true
   end
 end
 
